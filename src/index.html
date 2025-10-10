@@ -1,23 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
+<html lang="uk">
 
-    <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
-    </main>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
 
-    <load src="./partials/footer.html" />
+<body>
+  <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
 
-    <script type="module" src="./main.js"></script>
-  </body>
+  <main>
+    <!-- Loads the specified .html file -->
+    <load src="./partials/hero.html" />
+    <load src="./partials/about.html" />
+    <load src="./partials/advantages.html" />
+    <load src="./partials/assortment.html" />
+    <load src="./partials/gallery.html" />
+    <load src="./partials/feedbacks.html" />
+    <load src="./partials/support.html" />
+  </main>
+
+  <load src="./partials/footer.html" />
+
+  <script type="module" src="./main.js"></script>
+</body>
+
 </html>
