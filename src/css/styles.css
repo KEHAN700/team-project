@@ -71,9 +71,9 @@ button {
     padding: 0 32px;
   }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1440px) {
   .container {
-    max-width: 1158px;
+    max-width: 1440px;
     padding: 0 64px;
   }
 }
