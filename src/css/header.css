@@ -1,1 +1,32 @@
-/* файл порожній, щоб Vite не видавав попередження */
+.nav-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #75d281;
+    padding: 23px 0;
+}
+.nav-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #030a06;
+}
+
+.nav-list {
+    display: flex;
+    gap: 32px;
+}
+ 
+.contacts-list {
+    display: flex;
+    gap: 16px;
+}
+/* .navigation {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+} */
+
+/* .nav-list {
+    display: none;
+} */
