@@ -75,8 +75,8 @@
     }
     
     .hero-description {
-                font-size: 18px;
-                max-width: 573px;
+        font-size: 18px;
+        max-width: 573px;
     }
 }
 
@@ -95,7 +95,7 @@
     
     .hero-subtitle {
         font-size: 16px;
-        margin-bottom: 24px;
+        margin-bottom: 16px;
     }
     
     .hero-title {
