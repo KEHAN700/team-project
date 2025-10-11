@@ -1,1 +1,111 @@
-/* файл порожній, щоб Vite не видавав попередження */
+/* Hero Section Styles */
+.hero {
+    background: url('../images/feature/mob-1x.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 64px;
+    padding-inline: 16px;
+}
+
+@media screen and (min-resolution: 2x) {
+    .hero {
+        background-image: url('../images/feature/mob-2x.jpg');
+    }
+}
+
+.hero-content {
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-subtitle {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.hero-title {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: #fff;
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 768px) {
+    .hero {
+        padding: 80px 0;
+        background-image: url('../images/feature/tab-1x.jpg');
+    
+    }
+    @media screen and (min-width: 768px) and (min-resolution: 2x) {
+        .hero {
+            background-image: url('../images/feature/tab-2x.jpg');
+        }
+    }
+    
+    .hero-subtitle {
+        margin-bottom: 16px;
+    }
+    
+    .hero-title {
+        margin-bottom: 24px;
+        font-size: 36px;
+    }
+    
+    .hero-description {
+                font-size: 18px;
+                max-width: 573px;
+    }
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 1440px) {
+    .hero {
+        padding-top: 112px;
+        padding-bottom: 122px;
+        background-image: url('../images/feature/dt-1x.jpg');
+    }
+    @media screen and (min-width: 1440px) and (min-resolution: 2x) {
+        .hero {
+            background-image: url('../images/feature/dt-2x.jpg');
+        }
+    }
+    
+    .hero-subtitle {
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    
+    .hero-title {
+        font-size: 56px;
+        margin-bottom: 24px;
+        max-width: 629px;
+    }
+    
+    .hero-description {
+        font-size: 18px;
+        max-width: 573px;
+    }
+}
