@@ -27,6 +27,10 @@
   --background-color: #ebf8ed;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Comfortaa", sans-serif;
   color: var(--text-color);
