@@ -41,7 +41,6 @@
 .assortment__image img {
     border-radius: 32px;
     overflow: hidden;
-    display: block;
     width: 100%;
     height: auto;
     object-fit: cover;
