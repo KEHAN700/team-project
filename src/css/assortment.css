@@ -1,7 +1,3 @@
-/* ==========
-   БАЗОВЫЕ СТИЛИ (МОБИЛЬНАЯ ВЕРСИЯ)
-   320px и выше
-========== */
 
 .assortment__container {
     padding-top: 32px;
@@ -46,7 +42,12 @@
     align-items: center;
     text-align: center;
     flex-basis: 100%;
-    max-width: 320px;}
+    max-width: 320px;
+
+}
+       
+
+
 
 .assortment__subtitle{
     font-weight: 600;
@@ -84,6 +85,7 @@
         font-size: 16px;
         line-height: 1.6;
         color: rgba(3, 10, 6, 1);
+       
     
 }
 
@@ -102,11 +104,18 @@ opacity: 0.2;
 
 
 @media (min-width: 768px) {
+    .assortment__list{
+        gap: 24px;
+    }
     .assortment__item {
         flex-basis: calc(50% - 24px);
         max-width: 340px;
     }
 }
+
+.assortment__container {
+    padding-top: 64px;
+    padding-bottom: 64px;}
 
 @media (min-width: 1440px) {
     .assortment__item {
