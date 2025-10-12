@@ -1,1 +1,30 @@
-/* файл порожній, щоб Vite не видавав попередження */
+/* ==========
+   БАЗОВЫЕ СТИЛИ (МОБИЛЬНАЯ ВЕРСИЯ)
+   320px и выше
+========== */
+
+.assortment__container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.assortment__title {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+    margin-bottom: 32px;
+
+
+}
+
+.assortment__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+   
+    
