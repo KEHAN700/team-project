@@ -57,7 +57,6 @@ body {
 .advantages__list {
     display: flex;
     flex-direction: column;
-    gap: 48px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -72,7 +71,6 @@ body {
 /* Зображення */
 .advantages__image {
     background-color: #e9f3ea; /* М’який зелений фон як у другому прикладі */
-    border-radius: 16px;
     width: 100%;
     height: auto;
     display: block;
@@ -83,22 +81,23 @@ body {
 
 /* Заголовок картки */
 .advantages__item-title {
-    font-family: "Comfortaa", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.4;
-    color: #2b2b2b;
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 24px;
+line-height: 140%;
+letter-spacing: 0.01em;
+color: var(--color-scheme-1-text);
     margin-top: 8px;
     margin-bottom: 4px;
 }
 
 /* Текст у картці */
 .advantages__text {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 1.6;
-    color: #2b2b2b;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: var(--color-scheme-1-text);
 }
 
 /* === TABLET: від 768px === */

@@ -23,7 +23,9 @@
     <link rel="stylesheet" href="../css/container.css" />
     <link rel="stylesheet" href="../css/styles.css"/>
 
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -39,12 +41,12 @@
         </div>
         <ul class="advantages__list">
             <li class="advantages__item">
-                <img src="../images/layout/mob/1-1x.jpg" srcset="
-            ../images/layout/mob/1-1x.jpg 1x,
-            ../images/layout/mob/1-2x.jpg 2x,
-            ../images/layout/tab/1-1x.jpg 768w,
-            ../images/layout/dt/1-1x.jpg 1200w" 
-            alt="Стійкість та екологічність" class="advantages__image" />
+            <picture>
+                <source srcset="../images/layout/dt/1-1x.jpg 1x, ../images/layout/dt/1-2x.jpg 2x" media="(min-width:1158px)">
+                <source srcset="../images/layout/tab/1-1x.jpg 1x, ../images/layout/tab/1-2x.jpg 2x" media="(min-width:768px)">
+                <source srcset="../images/layout/mob/1-1x.jpg 1x, ../images/layout/mob/1-2x.jpg 2x" media="(max-width:767px)">
+                <img class="advantages__image" src="../images/layout/mob/1-1x.jpg" alt="bag-1">
+            </picture>
                 <h3 class="advantages__item-title">Стійкість та екологічність</h3>
                 <p class="advantages__text">
                     Виготовлені з органічної бавовни та переробленого пластику.
@@ -52,12 +54,12 @@
             </li>
 
             <li class="advantages__item">
-                <img src="../images/layout/mob/2-1x.jpg" srcset="
-            ../images/layout/mob/2-1x.jpg 1x,
-            ../images/layout/mob/2-2x.jpg 2x,
-            ../images/layout/tab/2-1x.jpg 768w,
-            ../images/layout/dt/2-1x.jpg 1200w" 
-            alt="Міцність і довговічність" class="advantages__image" />
+                <picture>
+                    <source srcset="../images/layout/dt/2-1x.jpg 1x, ../images/layout/dt/2-2x.jpg 2x" media="(min-width:1158px)">
+                    <source srcset="../images/layout/tab/2-1x.jpg 1x, ../images/layout/tab/2-2x.jpg 2x" media="(min-width:768px)">
+                    <source srcset="../images/layout/mob/2-1x.jpg 1x, ../images/layout/mob/2-2x.jpg 2x" media="(max-width:767px)">
+                    <img class="advantages__image" src="../images/layout/mob/2-1x.jpg" alt="bag-2">
+                </picture>
                 <h3 class="advantages__item-title">Міцність і довговічність</h3>
                 <p class="advantages__text">
                     Наші сумки мають посилені шви для тривалого використання.
@@ -65,12 +67,12 @@
             </li>
 
             <li class="advantages__item">
-                <img src="../images/layout/mob/3-1x.jpg" srcset="
-            ../images/layout/mob/3-1x.jpg 1x,
-            ../images/layout/mob/3-2x.jpg 2x,
-            ../images/layout/tab/3-1x.jpg 768w,
-            ../images/layout/dt/3-1x.jpg 1200w" 
-            alt="Стильний та сучасний дизайн" class="advantages__image" />
+                <picture>
+                    <source srcset="../images/layout/dt/3-1x.jpg 1x, ../images/layout/dt/3-2x.jpg 2x" media="(min-width:1158px)">
+                    <source srcset="../images/layout/tab/3-1x.jpg 1x, ../images/layout/tab/3-2x.jpg 2x" media="(min-width:768px)">
+                    <source srcset="../images/layout/mob/3-1x.jpg 1x, ../images/layout/mob/3-2x.jpg 2x" media="(max-width:767px)">
+                    <img class="advantages__image" src="../images/layout/mob/3-1x.jpg" alt="bag-3">
+                </picture>
                 <h3 class="advantages__item-title">Стильний та сучасний дизайн</h3>
                 <p class="advantages__text">
                     Мінімалістичні моделі в основних відтінках для кожного стилю.
