@@ -60,6 +60,7 @@
     font-size: 14px;
     line-height: 1.6;
     margin-bottom: 8px;
+    max-width: 288px;
 }
 
 .assortment__text{
@@ -83,4 +84,33 @@
         font-size: 16px;
         line-height: 1.6;
         color: rgba(3, 10, 6, 1);
+    
+}
+
+.assortment__button:hover,
+.assortment__button:focus{
+opacity: 0.5;
+}
+.assortment__button:active{
+opacity: 0.6;
+border-radius: rgba(17, 57, 22, 1);
+color: rgba(17, 57, 22, 1);
+}
+.assortment__button:disabled {
+opacity: 0.2;
+}
+
+
+@media (min-width: 768px) {
+    .assortment__item {
+        flex-basis: calc(50% - 24px);
+        max-width: 340px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .assortment__item {
+        flex-basis: calc(25% - 24px);
+        max-width: 310px;
+    }
 }
