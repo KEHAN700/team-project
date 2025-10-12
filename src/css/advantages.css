@@ -1,1 +1,152 @@
-/* файл порожній, щоб Vite не видавав попередження */
+/* === БАЗОВІ НАЛАШТУВАННЯ === */
+body {
+    --font-family: "Fira Sans", sans-serif;
+    --second-family: "Comfortaa", sans-serif;
+    --color-scheme-1-text: #2b2b2b;
+    background-color: #edf5ef;
+    color: var(--color-scheme-1-text);
+}
+
+/* === MOBILE: від 320px === */
+
+.title-text{
+    margin: 32px, 16px, 48px, 16px;
+}
+
+.advantages {
+    background-color: #e9f3ea;
+    /* м’якший зелений фон, як у макеті */
+    padding: 32px 16px 32px;
+    border-radius: 12px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Підзаголовок */
+.advantages__subtitle {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #2b2b2b;
+    margin-bottom: 12px;
+}
+
+/* Заголовок секції */
+.advantages__title {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: #2b2b2b;
+    margin-bottom: 20px;
+}
+
+/* Опис */
+.advantages__description {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #2b2b2b;
+    margin-bottom: 32px;
+}
+
+/* Список */
+.advantages__list {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Картка */
+.advantages__item {
+    margin-top: 48px;
+    background-color: #e9f3ea; /* М’який зелений фон як у другому прикладі */
+}
+
+/* Зображення */
+.advantages__image {
+    background-color: #e9f3ea; /* М’який зелений фон як у другому прикладі */
+    border-radius: 16px;
+    width: 100%;
+    height: auto;
+    display: block;
+    border: solid #000 1px; 
+    border-radius: 32px; /* Зробити плавно округлені кути */
+    box-shadow: none; /* Прибрати тінь, щоб виглядало м’якше */
+}
+
+/* Заголовок картки */
+.advantages__item-title {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #2b2b2b;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+/* Текст у картці */
+.advantages__text {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #2b2b2b;
+}
+
+/* === TABLET: від 768px === */
+@media (min-width: 768px) {
+    .advantages {
+        max-width: 900px;
+        padding: 2rem;
+    }
+
+    .advantages__title {
+        font-size: 32px;
+    }
+
+    .advantages__list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
+    .advantages__item {
+        flex: 1 1 calc(50% - 16px);
+    }
+
+    .advantages__item-title {
+        font-size: 22px;
+    }
+}
+
+/* === DESKTOP: від 1440px === */
+@media (min-width: 1440px) {
+    .advantages {
+        max-width: 1200px;
+        padding: 3rem 0;
+    }
+
+    .advantages__title {
+        font-size: 36px;
+    }
+
+    .advantages__list {
+        gap: 40px;
+    }
+
+    .advantages__item {
+        flex: 1 1 calc(33.333% - 27px);
+    }
+
+    .advantages__item-title {
+        font-size: 24px;
+    }
+}
