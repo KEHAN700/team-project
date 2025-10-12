@@ -29,10 +29,6 @@
     margin-bottom: 32px;
 }
 
-.support-form {
-
-}
-
 .support-label {
     font-weight: 400;
     font-size: 16px;
@@ -62,13 +58,12 @@ cursor: not-allowed;
 }
 
 .button-send:is(:hover, :focus) {
-    background-color: #113916;
-    opacity: 0.5;
+    background-color: rgba(3, 10, 6, 0.5);
 }
 
 .button-send:is(:active) {
-    opacity: 0.6;
     background-color: #113916;
+    opacity: 0.6;
 }
 
 .support-input {
@@ -128,3 +123,58 @@ cursor: not-allowed;
         background-image: url(/images/contact/mob-2x.jpg)
 }
 }
+
+@media (min-width: 768px) {
+    .support {
+        padding-top: 64px;
+        padding-bottom: 516px;
+        background-image: url(/images/contact/tab-1x.jpg);
+        background-position: center bottom 64px;
+    }
+
+    .support-title {
+        max-width: 468px;
+    }
+
+    .support-input {
+        max-width: 704px;
+    }
+
+    .support-textarea {
+        width: 704px;
+        height: 180px;
+    }
+
+    .support-buttom {
+        width: 288px;
+        height: 50px;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (min-resolution: 2x) {
+    .support {
+    background-image: url(/images/contact/tab-2x.jpg);
+    }
+}
+
+@media (min-width: 1440px) {
+    .support {
+        background-image: url(/images/contact/dt-1x.jpg);
+        background-position: right center;
+        }
+
+    .support-input {
+        max-width: 644px;
+        }
+    }
+
+    .support-textarea {
+        width: 644px;
+    }
+
+@media (min-width: 1440px) and (min-resolution: 2x) {
+        .support {
+            background-image: url(/images/contact/dt-2x.jpg);
+        }
+    }
