@@ -28,7 +28,7 @@
 }
 
 body {
-  font-family: "Comfortaa", sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   color: var(--text-color);
   background-color: var(--background-color);
 }
@@ -59,3 +59,4 @@ img {
 button {
   cursor: pointer;
 }
+
