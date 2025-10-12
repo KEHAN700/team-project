@@ -82,7 +82,7 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 1.6;
-    margin: 0;
+   
 }
 
 .assortment__button {
@@ -103,14 +103,17 @@
 
 .assortment__button:hover,
 .assortment__button:focus {
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 .assortment__button:active {
     color: rgba(17, 57, 22, 1);
     border-color: rgba(17, 57, 22, 1);
+    opacity: 0.6;
 }
-
+.assortment__button:disabled{
+opacity: 0.2;
+}  
 
 @media (min-width: 768px) {
     .assortment__list {
