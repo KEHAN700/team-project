@@ -8,9 +8,10 @@
     background-size: auto auto;
     background-color: #ebf8ed;
     overflow: hidden;
+    max-width: 320px;
+    margin: 0 auto;
 }
 
-.container
 
 .support-title {
     font-family: "Comfortaa",
@@ -138,6 +139,7 @@ cursor: not-allowed;
         padding-bottom: 516px;
         background-image: url(/images/contact/support-tab-1x.webp);
         background-position: center bottom 64px;
+        max-width: 768px;
     }
 
     .support-title {
@@ -173,6 +175,7 @@ cursor: not-allowed;
         /* background-position: 80% 50%; */
         padding-top: 64px;
         padding-bottom: 142px;
+        max-width: 1440px;
         }
 
     .support-input {
