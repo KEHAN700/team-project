@@ -9,7 +9,6 @@
     background-color: #ebf8ed;
     overflow: hidden;
     max-width: 320px;
-    margin: 0 auto;
 }
 
 
@@ -129,7 +128,8 @@ cursor: not-allowed;
 
 @media (min-resolution: 2x) {
     .support {
-        background-image: url(/images/contact/support-mob-2x.webp)
+        background-image: url(/images/contact/support-mob-2x.webp);
+        background-size: 288px 428px;
 }
 }
 
@@ -140,6 +140,7 @@ cursor: not-allowed;
         background-image: url(/images/contact/support-tab-1x.webp);
         background-position: center bottom 64px;
         max-width: 768px;
+        background-size: auto auto;
     }
 
     .support-title {
@@ -165,6 +166,7 @@ cursor: not-allowed;
 @media (min-width: 768px) and (min-resolution: 2x) {
     .support {
     background-image: url(/images/contact/support-tab-2x.webp);
+    background-size: 704px 428px;
     }
 }
 
@@ -176,6 +178,7 @@ cursor: not-allowed;
         padding-top: 64px;
         padding-bottom: 142px;
         max-width: 1440px;
+        background-size: auto auto;
         }
 
     .support-input {
@@ -197,5 +200,6 @@ cursor: not-allowed;
 @media (min-width: 1440px) and (min-resolution: 2x) {
         .support {
             background-image: url(/images/contact/support-desktop-2x.webp);
+            background-size: 644px 767px;
         }
     }
