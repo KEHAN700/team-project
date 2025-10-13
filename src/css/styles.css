@@ -3,7 +3,22 @@
   | include css partials with
   | default @import url()
   |============================
+  
 */
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./animations.css');
+
+/* Sections style */
+@import url('./header.css');
+@import url('./about.css');
+@import url('./advantages.css');
+@import url('./assortment.css');
+@import url('./gallery.css');
+@import url('./feedbacks.css');
+@import url('./support.css');
+@import url('./footer.css');
 /* Common styles */
 
 :root {
@@ -55,60 +70,39 @@
 	--color-scheme-3-accent: var(--color-neutral-darkest);
 	--color-scheme-3-foreground: var(--color-neutral-lightest);
 	--color-error-red: #d64040;
-}
-
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
-
-/* Sections style */
-@import url('./header.css');
-@import url('./about.css');
-@import url('./advantages.css');
-@import url('./assortment.css');
-@import url('./gallery.css');
-@import url('./feedbacks.css');
-@import url('./support.css');
-@import url('./footer.css');
-
-
-/*general styles*/
-:root {
-  --text-color: #030a06;
-  --background-color: #ebf8ed;
+	--text-color: #030a06;
+	--background-color: #ebf8ed;
 }
 
 body {
-  font-family: 'Fira Sans', sans-serif;
-  color: var(--text-color);
-  background-color: var(--background-color);
+	font-family: 'Fira Sans', sans-serif;
+	color: var(--text-color);
+	background-color: var(--background-color);
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 h1,
 h2,
 h3,
 p {
-  margin: 0;
+	margin: 0;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 button {
-  cursor: pointer;
+	cursor: pointer;
 }
-
