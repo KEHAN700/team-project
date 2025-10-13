@@ -1,1 +1,134 @@
-/* файл порожній, щоб Vite не видавав попередження */
+.assortment__container {
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+}
+
+.assortment__title {
+    font-family: 'Comfortaa', bold;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0 auto 40px auto;}
+    
+.assortment__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+   
+    
+}
+
+
+.assortment__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+  
+    flex-basis: 100%;
+    max-width: 320px;
+    align-self: stretch;
+   
+}
+
+
+.assortment__image,
+.assortment__image img {
+    border-radius: 32px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+   
+}
+
+
+.assortment__image {
+    margin-bottom: 16px;
+}
+
+
+.assortment__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex: 1 1 auto;
+    gap: 8px;
+    box-sizing: border-box;
+}
+
+
+.assortment__subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.6;
+
+}
+
+.assortment__desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 288px;
+}
+
+.assortment__text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.6;
+   
+}
+
+.assortment__button {
+    border: 1px solid rgba(3, 10, 6, 1);
+    border-radius: 6px;
+    padding-block: 8px;
+    padding-inline: 20px;
+    width: 288px;
+    height: 40px;
+    background-color: #ebf8ed;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(3, 10, 6, 1);
+    margin-top: auto;
+    
+}
+
+.assortment__button:hover,
+.assortment__button:focus {
+    opacity: 0.5;
+}
+
+.assortment__button:active {
+    color: rgba(17, 57, 22, 1);
+    border-color: rgba(17, 57, 22, 1);
+    opacity: 0.6;
+}
+.assortment__button:disabled{
+opacity: 0.2;
+}  
+
+@media (min-width: 768px) {
+    .assortment__list {
+        gap: 24px;
+    }
+
+    .assortment__item {
+        flex-basis: calc(50% - 24px);
+        max-width: 340px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .assortment__item {
+        flex-basis: calc(25% - 24px);
+        max-width: 310px;
+    }
+}
