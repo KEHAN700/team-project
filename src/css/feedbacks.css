@@ -1,1 +1,79 @@
 /* файл порожній, щоб Vite не видавав попередження */
+.feedbacks-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.feedbacks-title {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #030a06;
+    margin-bottom: 32px;
+}
+.feedbacks-item:not(:last-child) {
+    margin-bottom: 25px;
+}
+.feedbacks-icon-box {
+    margin-bottom: 12px;
+}
+.feedbacks-icon {
+    fill: #3ac04c;
+}
+.feedbacks-text {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #030a06;
+    margin-bottom: 12px;
+}
+.feedbacks-author {
+    font-weight: 600;
+    line-height: 160%;
+    color: #030a06;
+}
+@media screen and (min-width: 768px) {
+.feedbacks-container {
+    padding-top: 64px;
+    padding-bottom: 64px;
+   }
+   .feedbacks-item:not(:last-child) {
+       margin-bottom: 0;
+   }
+   .feedbacks-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px 24px;
+   }
+   .feedbacks-item {
+       width: calc(( 100% - 24px ) / 2);
+   }
+   .feedbacks-icon-box {
+       margin-bottom: 24px;
+   }
+}
+@media screen and (min-width: 1440px) {
+    .feedbacks-title {
+        margin: 0 auto 80px;
+        font-size: 48px;
+        max-width: 560px;
+        text-align: center;
+    }
+     .feedbacks-text {
+        margin-bottom: 24px;
+     }
+    .feedbacks-list {
+        gap: 24px;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+     .feedbacks-item {
+    width: calc(( 100% - 72px ) / 4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+}
