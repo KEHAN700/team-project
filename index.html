@@ -20,7 +20,7 @@
     href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@700&family=Roboto&display=swap"
     rel="stylesheet">
   <script type="module" crossorigin src="/team-project/index.js"></script>
-  <link rel="stylesheet" crossorigin href="/team-project/assets/index-FCI2A0-E.css">
+  <link rel="stylesheet" crossorigin href="/team-project/assets/index-DXAZ8dED.css">
 </head>
 
 <body>
@@ -434,7 +434,60 @@
         </ul>
     </div>
 </section>
-    
+    <section class="support" id="contacts">
+  <div class="container">
+    <h2 class="support-title">Залишились питання? Зв'яжіться з нами!</h2>
+    <h3 class="support-subtitle">Ми тут, щоб допомогти!</h3>
+    <form class="support-form">
+      <div class="support-input-container">
+        <label class="support-label" for="username"
+          >Ім'я
+          <input
+            class="support-input"
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Іван"
+            required
+          />
+        </label>
+      </div>
+      <div class="support-input-container">
+        <label class="support-label" for="email">
+          Електронна пошта
+          <input
+            class="support-input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="hello@ecotote.com"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            )
+            minlength="5"
+            maxlength="500"
+            required
+          />
+          <p class="text-invalid">Invalid email, try again</p>
+        </label>
+      </div>
+      <div class="support-input-container">
+        <label class="support-label" for="message">
+          Повідомлення
+          <textarea
+            class="support-textarea"
+            name="message"
+            id="message"
+            placeholder="Введіть своє повідомлення..."
+            maxlength="500"
+            required
+          ></textarea>
+        </label>
+      </div>
+      <button class="support-button" type="submit" disabled>Надіслати</button>
+    </form>
+  </div>
+</section>
+
   </main>
 
   <section class="footer">
