@@ -45,6 +45,7 @@
     height: 100%;
     width: 100%;
     position: fixed;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
     top: 0;
     left: 0;
     z-index: 100;
