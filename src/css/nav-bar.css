@@ -1,0 +1,274 @@
+.page-header {
+    background-color: #75d281;
+}
+
+.nav-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    padding-left: 20px;
+    padding-right: 12px;
+}
+
+.menu-open-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.menu-open-img {
+    fill: #030a06;
+}
+
+.contacts-item-link {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #030a06;
+}
+
+.contacts-list {
+    display: none;
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.nav-list {
+    display: none;
+}
+
+.mob-menu {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #75d281;
+    padding-top: 14px;
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.mob-menu-container {
+    padding-left: 4px;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 14px;
+    padding-right: 12px;
+}
+
+.menu-logo-btn {
+    background-color: transparent;
+    border: none;
+    width: 84px;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+}
+
+.logo-cont {
+    display: flex;
+}
+
+/* .logo-cont:hover {
+    border-radius: 5px;
+    background-color: #030a06;
+    fill: white;
+} */
+
+.menu-exit-btn {
+    background-color: transparent;
+    border: none;
+    color: #030A06;
+    width: 48px;
+    height: 48px;
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mob-nav-list {
+    margin: 32px 0;
+}
+
+.mob-nav-item {
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.mob-nav-item-link {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #030a06;
+}
+
+.mob-nav-item-link:hover,
+.mob-nav-item-link:focus {
+    text-decoration: underline;
+}
+
+.mob-nav-item-link:active {
+    color: #3ac04c;
+}
+
+.mob-contacts {
+    font-style: normal;
+}
+
+.mob-contacts-list {
+    padding-top: 64px;
+    padding-bottom: 92px;
+    text-decoration: none;
+    color: #030a06;
+}
+
+.mob-contacts-item-link:hover,
+.mob-contacts-item-link:focus {
+    text-decoration: underline;
+}
+
+.mob-contacts-item-link:active {
+    color: #3ac04c;
+}
+
+.mob-contacts-item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.mob-contacts-item-link {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #030a06;
+}
+
+.mob-list-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mob-social-item {
+    width: 40px;
+    height: 40px;
+}
+
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-conteiner {
+        padding-left: 32px;
+        padding-right: 16px;
+    }
+
+    .menu-open-img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .mob-menu-container {
+        padding-left: 0px;
+        padding-right: 16px;
+    }
+
+    .mob-menu {
+        padding-left: 32px;
+        padding-right: 16px;
+    }
+
+    .menu-exit-btn {
+        margin-right: 16px;
+    }
+}
+
+/* Styles for Desktop devices */
+@media screen and (min-width: 1440px) {
+    .nav-conteiner {
+        padding: 0 32px;
+    }
+
+    .nav-logo {
+        width: 106px;
+        height: 45px;
+    }
+
+    .menu-open-btn {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .nav-logo {
+        display: flex;
+
+    }
+
+    .nav-list {
+        display: flex;
+        gap: 32px;
+        padding: 23px 0;
+    }
+
+    .contacts-list {
+        display: flex;
+        gap: 16px;
+        text-decoration: none;
+    }
+
+    .contacts-item-link {
+        text-decoration: none;
+    }
+
+    .mob-menu {
+        display: none;
+    }
+
+    .nav-item-link:hover,
+    .nav-item-link:focus {
+        text-decoration: underline;
+    }
+
+    .nav-item-link:active {
+        color: #3ac04c;
+    }
+
+    .contacts-item-link:hover,
+    .contacts-item-link:focus {
+        text-decoration: underline;
+    }
+
+    .contacts-item-link:active {
+        color: #3ac04c;
+    }
+}
