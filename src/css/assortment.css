@@ -121,6 +121,9 @@ opacity: 0.2;
         flex-basis: calc(50% - 24px);
         max-width: 340px;
     }
+    .assortment__image {
+        width: 340px;
+}
 }
 
 @media (min-width: 1440px) {
@@ -128,5 +131,8 @@ opacity: 0.2;
         flex-basis: calc(25% - 24px);
         max-width: 310px;
     
+    }
+    .assortment__image{
+        width: 310px;
     }
 }
