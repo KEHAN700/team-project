@@ -145,7 +145,7 @@
   max-width: 640px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  margin-bottom: 16px;
 }
 
 .header-text {
@@ -154,7 +154,7 @@
 
 .header-button {
   width: auto;
-  min-width: 148px;
+  min-width: 288px;
   align-self: flex-start;
 }
 

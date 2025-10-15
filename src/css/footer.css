@@ -21,9 +21,13 @@ body {
     min-height: 100vh;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .footer__logo {
-    padding-bottom: 48px;
-    padding-top: 48px;
+    margin-bottom: 48px;
+    margin-top: 48px;
     display: block;
 }
 
