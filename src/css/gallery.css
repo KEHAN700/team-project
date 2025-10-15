@@ -1,8 +1,6 @@
-/*--------GALLERY---------*/
-
 .gallery {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     background-color: #ebf8ed;
 }
 
@@ -83,6 +81,11 @@
 }
 
 @media screen and (min-width: 768px) {
+    .gallery {
+        padding-top: 64px;
+        padding-bottom: 64px;
+        }
+
     .gallery-list {
         display: grid;
         grid-template-columns: repeat(2, 340px);
