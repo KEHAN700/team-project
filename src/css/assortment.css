@@ -114,6 +114,7 @@ opacity: 0.2;
 @media (min-width: 768px) {
     .assortment__list {
         gap: 24px;
+        row-gap: 48px;
     }
 
     .assortment__item {
