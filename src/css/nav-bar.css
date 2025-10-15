@@ -90,6 +90,14 @@
     background-color: #030a06;
     fill: white;
 } */
+.mob-menu-logo {
+    display: block;
+    width: 84px;
+    height: 36px;
+    margin: 0 auto;
+    object-fit: contain;
+    overflow: visible;
+}
 
 .menu-exit-btn {
     background-color: transparent;
